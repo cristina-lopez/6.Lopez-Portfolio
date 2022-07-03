@@ -5,7 +5,7 @@
         "project_name": "Random Phrase Generator (Unit 1)",
         "description": "In this project I displayed a random phrase with a random backgroun to the screen. I added a button that, when clicked, the screen updates with a new phrase and a new background color. I also added a timer so that the screen updates automatically after a certain amount of time.",
         "technologies": ["html", "css", "javascript"],
-        "live_link": "",
+        "live_link": "https://cristina-lopez.github.io/Techdegree-Unit1-Project/",
         "github_link": "https://github.com/cristina-lopez/Techdegree-Unit1-Project.git",
         "images_url": ["/images/proj1.png", "/images/proj1other.png"]
       },
@@ -14,7 +14,7 @@
         "project_name": "Student Search (Unit 2)",
         "description": "In this project I sorted through data to show 9 students per page. I also created navigational buttons that shows the students at those corresponding pages. I added a search feature where users can type characters and the page displays the students whose names contain the characters.",
         "technologies": ["html", "css", "javascript"],
-        "live_link": "",
+        "live_link": "https://cristina-lopez.github.io/Techdegree-Unit2-Project/",
         "github_link": "https://github.com/cristina-lopez/Techdegree-Unit2-Project.git",
         "images_url": ["/images/proj2.png", "/images/proj2pagination.png", "/images/proj2search.png"]
       },
@@ -23,7 +23,7 @@
         "project_name": "Conference Form (Unit 3)",
         "description": "In this project I created a form that validates user data. If some entries are invalid, the form will not submit and the user will be notified of the reason. I also added features where some inputs are not visible until another input is selected.",
         "technologies": ["html", "css", "javascript", "regex"],
-        "live_link": "",
+        "live_link": "https://cristina-lopez.github.io/Lopez-Interactive-Form/",
         "github_link": "https://github.com/cristina-lopez/Lopez-Interactive-Form.git",
         "images_url": ["/images/proj3.png", "/images/proj3activities.png", "/images/proj3creditcard.png", "/images/proj3options.png"]
       },
@@ -32,7 +32,7 @@
         "project_name": "Guess the Phrase! Game (Unit 4)",
         "description": "In this project I displayed a hidden random phrase on the screen. Users can click on the keyboard on the screen or type a letter to guess a letter in the phrase. If the letter is in the phrase, the letter is displayed. If the letter is not in the phrase, the player loses a life. When the player wins or loses, they are taken to a screen with the corresponding message. The player can then reset the game and start over.",
         "technologies": ["html", "css", "javascript"],
-        "live_link": "",
+        "live_link": "https://cristina-lopez.github.io/Lopez-OOP-GameShowApp/",
         "github_link": "https://github.com/cristina-lopez/Lopez-OOP-GameShowApp.git",
         "images_url": ["/images/proj4.png", "/images/proj4guess.png", "/images/proj4phrase.png"]
       },
@@ -41,7 +41,7 @@
         "project_name": "Employee Information (Unit 5)",
         "description": "In this project I get random data from an API and display the information on the screen. When a user clicks on a person, a modal pops up with more details about the person. I also added a search feature where the page displays the people whose names have the characters typed in.",
         "technologies": ["html", "css", "javascript", "api"],
-        "live_link": "",
+        "live_link": "https://cristina-lopez.github.io/Lopez-PublicAPIRequests-Project",
         "github_link": "https://github.com/cristina-lopez/Lopez-PublicAPIRequests-Project.git",
         "images_url": ["/images/proj5.png", "/images/proj5modal.png", "/images/proj5search.png"]
       }
