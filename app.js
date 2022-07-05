@@ -27,6 +27,22 @@ app.get('/project/:id', (req, res, next) => {
     }
 });
 
+// 404 error
+app.use((req, res, next) => {
+    const err = new Error('Not Found');
+    err.status = 404;
+    err.message = 'Looks like the page you requested does not exist.';
+    next(err);
+});
+
+// global error
+  app.use((err, req, res, next) => {
+    err.message = err.message || "There was a server error!";
+    err.status = (err.status || 500);
+    console.log(`You have hit a ${err.status} error!`);
+    res.send(`Error Code: ${err.status} : ${err.message}`);
+  });
+
 
 
 app.listen(3000, () => {
