@@ -2,7 +2,7 @@
   "name": "6.lopez-portfolio",
   "version": "1.0.0",
   "description": "Project for Unit 6 of FSJS Techdegree.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/cristina-lopez/6.Lopez-Portfolio.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/cristina-lopez/6.Lopez-Portfolio/issues"
   },
