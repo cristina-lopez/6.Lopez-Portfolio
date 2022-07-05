@@ -9,14 +9,15 @@ app.set('view engine', 'pug');
 app.use('/static', express.static('public'));
 
 // sets routes
+// route to index home page
 app.get('/', (req, res, next) => {
     res.render('index', { projects });
 });
-
+// route to about me page
 app.get('/about', (req, res, next) => {
     res.render('about');
 });
-
+// route to each project page
 app.get('/project/:id', (req, res, next) => {
     const projectId = req.params.id;
     const project = projects.find( ({id}) => id === +projectId );
@@ -30,21 +31,26 @@ app.get('/project/:id', (req, res, next) => {
     }
 });
 
-// 404 error
+// 404 error handler
 app.use((req, res, next) => {
-    const err = new Error('Not Found');
-    err.status = 404;
-    err.message = 'Looks like the page you requested does not exist.';
-    next(err);
+    res.status = 404;
+    res.render('page-not-found', {err});
 });
 
-// global error
-  app.use((err, req, res, next) => {
-    err.message =  err.message || "There was a server error!";
-    err.status = (err.status || 500);
-    console.log(`You have hit a ${err.status} error!`);
-    res.send(`Error Code: ${err.status} : ${err.message}`);
-  });
+//global error handler
+app.use((err, req, res, next) => {
+    if (err) {
+      console.log('Global error handler called', err);
+    }
+    if (err.status === 404) {
+      res.status = 404;
+      res.render('page-not-found', { err });
+    } else {
+      err.message = err.message || 'You have hit an error!';
+      err.status = (err.status || 500);
+      res.render('error', { err });
+    }
+});
 
 app.listen(3000, () => {
     console.log('The application is running on localhost:3000!');
