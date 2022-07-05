@@ -33,8 +33,9 @@ app.get('/project/:id', (req, res, next) => {
 
 // 404 error handler
 app.use((req, res, next) => {
-    res.status = 404;
-    res.render('page-not-found', {err});
+    err = new Error('Page not found');
+    err.status = 404;
+    next(err);
 });
 
 //global error handler
