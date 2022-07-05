@@ -7,6 +7,7 @@ const { projects } = require('./data.json');
 app.set('view engine', 'pug');
 // serves static files in public folder
 app.use('/static', express.static('public'));
+//app.use(express.static('public'));
 
 // sets routes
 app.get('/', (req, res, next) => {
@@ -23,7 +24,10 @@ app.get('/project/:id', (req, res, next) => {
     if (project) {
         res.render('project', { project });
     } else {
-        res.sendStatus(404);
+        const err = new Error('Not Found');
+        err.status = 404;
+        err.message = 'Looks like the page you requested does not exist.';
+        next(err);
     }
 });
 
@@ -37,7 +41,7 @@ app.use((req, res, next) => {
 
 // global error
   app.use((err, req, res, next) => {
-    err.message = err.message || "There was a server error!";
+    err.message =  err.message || "There was a server error!";
     err.status = (err.status || 500);
     console.log(`You have hit a ${err.status} error!`);
     res.send(`Error Code: ${err.status} : ${err.message}`);

@@ -7,7 +7,7 @@
         "technologies": ["html", "css", "javascript"],
         "live_link": "https://cristina-lopez.github.io/Techdegree-Unit1-Project/",
         "github_link": "https://github.com/cristina-lopez/Techdegree-Unit1-Project.git",
-        "images_url": ["/images/proj1.png", "/images/proj1other.png"]
+        "images_url": ["/static/images/proj1.png", "/static/images/proj1other.png"]
       },
       {
         "id": 1,
@@ -16,7 +16,7 @@
         "technologies": ["html", "css", "javascript"],
         "live_link": "https://cristina-lopez.github.io/Techdegree-Unit2-Project/",
         "github_link": "https://github.com/cristina-lopez/Techdegree-Unit2-Project.git",
-        "images_url": ["/images/proj2.png", "/images/proj2pagination.png", "/images/proj2search.png"]
+        "images_url": ["/static/images/proj2.png", "/static/images/proj2pagination.png", "/static/images/proj2search.png"]
       },
       {
         "id": 2,
@@ -25,7 +25,7 @@
         "technologies": ["html", "css", "javascript", "regex"],
         "live_link": "https://cristina-lopez.github.io/Lopez-Interactive-Form/",
         "github_link": "https://github.com/cristina-lopez/Lopez-Interactive-Form.git",
-        "images_url": ["/images/proj3.png", "/images/proj3activities.png", "/images/proj3creditcard.png", "/images/proj3options.png"]
+        "images_url": ["/static/images/proj3.png", "/static/images/proj3activities.png", "/static/images/proj3creditcard.png", "/images/proj3options.png"]
       },
       {
         "id": 3,
@@ -34,7 +34,7 @@
         "technologies": ["html", "css", "javascript"],
         "live_link": "https://cristina-lopez.github.io/Lopez-OOP-GameShowApp/",
         "github_link": "https://github.com/cristina-lopez/Lopez-OOP-GameShowApp.git",
-        "images_url": ["/images/proj4.png", "/images/proj4guess.png", "/images/proj4phrase.png"]
+        "images_url": ["/static/images/proj4.png", "/static/images/proj4guess.png", "/static/images/proj4phrase.png"]
       },
       {
         "id": 4,
@@ -43,7 +43,7 @@
         "technologies": ["html", "css", "javascript", "api"],
         "live_link": "https://cristina-lopez.github.io/Lopez-PublicAPIRequests-Project",
         "github_link": "https://github.com/cristina-lopez/Lopez-PublicAPIRequests-Project.git",
-        "images_url": ["/images/proj5.png", "/images/proj5modal.png", "/images/proj5search.png"]
+        "images_url": ["/static/images/proj5.png", "/static/images/proj5modal.png", "/static/images/proj5search.png"]
       }
     ]
   }
