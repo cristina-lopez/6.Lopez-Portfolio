@@ -7,11 +7,10 @@ const { projects } = require('./data.json');
 app.set('view engine', 'pug');
 // serves static files in public folder
 app.use('/static', express.static('public'));
-//app.use(express.static('public'));
 
 // sets routes
 app.get('/', (req, res, next) => {
-    res.render('index', { projects }); //"with the locals set to data.prjects???"
+    res.render('index', { projects });
 });
 
 app.get('/about', (req, res, next) => {
@@ -46,8 +45,6 @@ app.use((req, res, next) => {
     console.log(`You have hit a ${err.status} error!`);
     res.send(`Error Code: ${err.status} : ${err.message}`);
   });
-
-
 
 app.listen(3000, () => {
     console.log('The application is running on localhost:3000!');
