@@ -270,13 +270,17 @@ nav a span {
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
 }
 
-
 /* 
   About and project pages styles 
 */
 .about-intro-box p,
 .project-info-box p {
   font-size: 125%;
+}
+
+/* adds box shadow to titles of each project page */
+.project-info-box h1 {
+  box-shadow: 5px 10px #888888;
 }
 
 .about-bio p {
@@ -307,7 +311,6 @@ nav a span {
   background-color: #333;
   border: 1px solid transparent;
 }
-
 
 /* 
   Tablet layout styles 
