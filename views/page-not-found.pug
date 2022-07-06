@@ -1,5 +1,6 @@
 extends layout.pug
 
 block content
-    h1= `${err.status} - Page Not Found`
-    p= `It looks like the page you're looking for does not exist.`
+    h1= `Local Error`
+    h2= `${err.status} - Page Not Found`
+    p= `${err.message}`
