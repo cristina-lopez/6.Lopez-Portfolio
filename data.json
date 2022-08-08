@@ -53,6 +53,33 @@
         "technologies": ["html", "css", "javascript", "jsx", "react", "axios"],
         "live_link": "",
         "github_link": "https://github.com/cristina-lopez/Lopez-ReactGalleryApp.git",
+        "images_url": ["/static/images/proj7_snap1.png", "/static/images/proj7_snap2.png", "/static/images/proj7_snap3.png", "/static/images/proj7_snap4.png"]
+      },
+      {
+        "id": 8,
+        "project_name": "Library Manager (Unit 8)",
+        "description": "In this project I build an application that allows the user to view, add, update and delete books.",
+        "technologies": ["html", "css", "javascript", "node.js", "express", "pug", "sqlite"],
+        "live_link": "",
+        "github_link": "https://github.com/cristina-lopez/Lopez-SQL-LibraryManager-Project8.git",
+        "images_url": ["/static/images/proj5_snap1.png", "/static/images/proj5_snap2.png", "/static/images/proj5_snap3.png"]
+      },
+      {
+        "id": 9,
+        "project_name": "Course and User Database Manager (Unit 9)",
+        "description": "In this project I create an API where the user can view, edit, create and delete courses. In order to modify the database, the user must sign in. If the user does not have an account, they can sign up.",
+        "technologies": ["javascript", "node.js", "express", "rest apis", "sequelize"],
+        "live_link": "",
+        "github_link": "https://github.com/cristina-lopez/Lopez-REST-API-Project9.git",
+        "images_url": ["/static/images/proj5_snap1.png", "/static/images/proj5_snap2.png", "/static/images/proj5_snap3.png"]
+      },
+      {
+        "id": 10,
+        "project_name": "Course Database Manager (Unit 10)",
+        "description": "In this project I create the client side of project 9. This full stack app will provide a way for users to view, create, edit and delete courses. Users will have to sign in (or sign up if they don't have an account) in order to modify the database.",
+        "technologies": ["javascript", "jsx", "react", "react context", "fetch api"],
+        "live_link": "",
+        "github_link": "https://github.com/cristina-lopez/Lopez-FullStackApp-Project10.git",
         "images_url": ["/static/images/proj5_snap1.png", "/static/images/proj5_snap2.png", "/static/images/proj5_snap3.png"]
       }
     ]
