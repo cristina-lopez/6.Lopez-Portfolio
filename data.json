@@ -4,7 +4,7 @@
         "id": 1,
         "project_name": "Random Phrase Generator (Unit 1)",
         "description": "In this project I displayed a random phrase with a random backgroun to the screen. I added a button that, when clicked, the screen updates with a new phrase and a new background color. I also added a timer so that the screen updates automatically after a certain amount of time.",
-        "technologies": ["html", "css", "javascript"],
+        "technologies": ["html", "css", "javascript variables", "javascript conditionals", "javascript loops", "javascript object literals"],
         "live_link": "https://cristina-lopez.github.io/Techdegree-Unit1-Project/",
         "github_link": "https://github.com/cristina-lopez/Techdegree-Unit1-Project.git",
         "images_url": ["/static/images/proj1_snap1.png", "/static/images/proj1_snap2.png"]
@@ -43,6 +43,15 @@
         "technologies": ["html", "css", "javascript", "api"],
         "live_link": "https://cristina-lopez.github.io/Lopez-PublicAPIRequests-Project",
         "github_link": "https://github.com/cristina-lopez/Lopez-PublicAPIRequests-Project.git",
+        "images_url": ["/static/images/proj5_snap1.png", "/static/images/proj5_snap2.png", "/static/images/proj5_snap3.png"]
+      },
+      {
+        "id": 6,
+        "project_name": "Portfolio (Unit 6)",
+        "description": "In this project I get random data from an API and display the information on the screen. When a user clicks on a person, a modal pops up with more details about the person. I also added a search feature where the page displays the people whose names have the characters typed in.",
+        "technologies": ["html", "css", "javascript", "api"],
+        "live_link": "",
+        "github_link": "",
         "images_url": ["/static/images/proj5_snap1.png", "/static/images/proj5_snap2.png", "/static/images/proj5_snap3.png"]
       }
     ]
